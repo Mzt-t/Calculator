@@ -24,7 +24,20 @@ namespace Calculator
                 textBox.Clear();
             }
             Button button = (Button)sender;
+
+            if (button.Name == "button18") {
+                textBox.Clear();
+            }
+
             textBox.Text += button.Text;
+        }
+
+        private void operator_click(object sender, EventArgs e)
+        {
+            Button operatorButton = (Button)sender;
+            if (operatorButton.Text == "+") {
+                textBox.Text = "You have pressed the +";
+            }
         }
     }
 }

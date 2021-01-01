@@ -193,6 +193,7 @@ namespace Calculator
             this.button12.TabIndex = 11;
             this.button12.Text = "=";
             this.button12.UseVisualStyleBackColor = true;
+            this.button12.Click += new System.EventHandler(this.button_click);
             // 
             // button13
             // 
@@ -204,6 +205,7 @@ namespace Calculator
             this.button13.TabIndex = 12;
             this.button13.Text = "+";
             this.button13.UseVisualStyleBackColor = true;
+            this.button13.Click += new System.EventHandler(this.operator_click);
             // 
             // button14
             // 
@@ -215,6 +217,7 @@ namespace Calculator
             this.button14.TabIndex = 13;
             this.button14.Text = "-";
             this.button14.UseVisualStyleBackColor = true;
+            this.button14.Click += new System.EventHandler(this.operator_click);
             // 
             // button15
             // 
@@ -226,6 +229,7 @@ namespace Calculator
             this.button15.TabIndex = 14;
             this.button15.Text = "X";
             this.button15.UseVisualStyleBackColor = true;
+            this.button15.Click += new System.EventHandler(this.operator_click);
             // 
             // button16
             // 
@@ -237,6 +241,7 @@ namespace Calculator
             this.button16.TabIndex = 15;
             this.button16.Text = "/";
             this.button16.UseVisualStyleBackColor = true;
+            this.button16.Click += new System.EventHandler(this.operator_click);
             // 
             // button18
             // 
@@ -248,6 +253,7 @@ namespace Calculator
             this.button18.TabIndex = 17;
             this.button18.Text = "C";
             this.button18.UseVisualStyleBackColor = true;
+            this.button18.Click += new System.EventHandler(this.button_click);
             // 
             // button19
             // 
@@ -259,6 +265,7 @@ namespace Calculator
             this.button19.TabIndex = 18;
             this.button19.Text = "<";
             this.button19.UseVisualStyleBackColor = true;
+            this.button19.Click += new System.EventHandler(this.button_click);
             // 
             // textBox
             // 
