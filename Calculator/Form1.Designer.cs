@@ -193,7 +193,7 @@ namespace Calculator
             this.button12.TabIndex = 11;
             this.button12.Text = "=";
             this.button12.UseVisualStyleBackColor = true;
-            this.button12.Click += new System.EventHandler(this.button_click);
+            this.button12.Click += new System.EventHandler(this.equals);
             // 
             // button13
             // 
@@ -253,7 +253,7 @@ namespace Calculator
             this.button18.TabIndex = 17;
             this.button18.Text = "C";
             this.button18.UseVisualStyleBackColor = true;
-            this.button18.Click += new System.EventHandler(this.button_click);
+            this.button18.Click += new System.EventHandler(this.clear);
             // 
             // button19
             // 
@@ -265,7 +265,7 @@ namespace Calculator
             this.button19.TabIndex = 18;
             this.button19.Text = "<";
             this.button19.UseVisualStyleBackColor = true;
-            this.button19.Click += new System.EventHandler(this.button_click);
+            this.button19.Click += new System.EventHandler(this.backspace);
             // 
             // textBox
             // 
